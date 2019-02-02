@@ -49,7 +49,7 @@ function win(userChoice, compChoice) {
                             <h4>User</h4>
                             <h4>Comp</h4>
                          </div> 
-                         <p>You Wins 🔥</p> `;
+                         <p>You Win 🔥</p> `;
     document.getElementById(`choice-${userChoice}`).classList.add('green-glow');
     setTimeout(function () {
         document.getElementById(`choice-${userChoice}`).classList.remove('green-glow')
